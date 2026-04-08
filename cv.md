@@ -11,7 +11,7 @@
 ---
 
 ## 👤 Main Information
-| | |
+
 |---|---|
 | **Full name:** | Evgeniy Tselobanov |
 | **Age:** | 19 years old (born 08.12.2006) |
