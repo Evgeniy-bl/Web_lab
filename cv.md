@@ -78,7 +78,7 @@ Certificate with honors (physics and mathematics profile)
 
 ⬆️ **Back to navigation:** [main](#main) | [education](#education) | [skills](#skills) | [qualities](#qualities) | [additional](#additional) | [contacts](#contacts)
 
----
+----
 
 *BSU student, Evgeniy Tselobanov* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *March 2026*
 
