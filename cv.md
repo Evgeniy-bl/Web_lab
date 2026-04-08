@@ -37,7 +37,7 @@ Certificate with honors (physics and mathematics profile)
 ## 🔧 Technical Skills
 
 | Category | Proficiency |
-|---|---|
+
 | **Programming languages** | C#, Python (basic), JavaScript (basics) |
 | **Web markup** | HTML (table layout, forms), understanding of document structure |
 | **Tools** | Git, VS Code, Windows console, MS Office suite |
