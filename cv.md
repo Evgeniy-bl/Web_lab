@@ -32,7 +32,7 @@ Specialty: "Automated Information Processing Systems" (full-time)
 **Timonovo Secondary School**  
 Certificate with honors (physics and mathematics profile)
 
----
+----
 
 ## 🔧 Technical Skills
 
