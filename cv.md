@@ -50,7 +50,7 @@ Certificate with honors (physics and mathematics profile)
 - Quick learner, interest in new technologies
 - Teamwork, experience in study projects
 - Self-organization, meeting deadlines
-- Hobbies: chess, cycling, read a book
+- Hobbies: chess, cycling, read a books
 
 ---
 
