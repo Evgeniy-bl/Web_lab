@@ -76,7 +76,7 @@ Certificate with honors (physics and mathematics profile)
 
 ---
 
-⬆️ **Back to navigation:** [main](#main) | [education](#education) | [skills](#skills) | [qualities](#qualities) | [additional](#additional) | [contacts](#contacts)
+⬆️ **Back to navigation:** [main](#main)  |  [education](#education)  |  [skills](#skills)  |  [qualities](#qualities)  |  [additional](#additional)  |  [contacts](#contacts)
 
 ----
 
