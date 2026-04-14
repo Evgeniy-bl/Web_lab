@@ -70,7 +70,8 @@ Certificate with honors (physics and mathematics profile)
 | | |
 |---|---|
 | **Email** | tselobanovevgeniy@gmail.com |
-| **Phone / Telegram** | +375 (29) 648-22-67 \| @owner |
+| **Phone / Telegram** | +375 (29) 648-22-67 | @owner |
+| **Gmail** | Tselobanov8111@gmail.com |
 | **GitHub** | [github.com/evgeniy_bl](https://github.com/evgeniy-bl) |
 | **Address** | Mogilev, Leninskaya str. (BSU dormitory) |
 
