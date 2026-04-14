@@ -6,7 +6,7 @@
 ---
 
 ## 📋 Navigation
-[main](#main) | [education](#education) | [skills](#skills) | [qualities](#qualities) | [additional](#additional) | [contacts](#contacts)
+[main](#main)  |  [education](#education)  |  [skills](#skills)  |  [qualities](#qualities)  |  [additional](#additional)  |  [contacts](#contacts)
 
 ---
 
