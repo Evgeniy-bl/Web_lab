@@ -864,71 +864,554 @@ body {
     cursor: pointer;
 }
 
-/* ========== АДАПТИВ ========== */
+/* медиазапросы */
+
+/* 1024px - 1200px */
 @media (max-width: 1200px) {
+    .container {
+        padding: 0 30px;
+    }
+    
+    .hero-title {
+        font-size: 45px;
+    }
+    
+    .section-title {
+        font-size: 38px;
+    }
+    
+    .hero-grid-wrap {
+        padding: 70px 0;
+    }
+    
+    .hero-image {
+        right: 30px;
+    }
+}
+
+/* 768px - 1024px */
+@media (max-width: 1024px) {
     .navbar {
         flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+    
+    .header-menu-wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .nav-menu {
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 20px;
     }
     
     .hero-grid-wrap {
         flex-direction: column;
         text-align: center;
+        gap: 40px;
     }
     
     .hero-subtitle {
         justify-content: center;
     }
     
-    .feature-grid, .about-us-grid-wrap, .testimonial-grid, .article-grid {
-        flex-direction: column;
+    .hero-title {
+        font-size: 40px;
     }
     
-    .service-grid, .service-grid.toggle-align {
-        flex-direction: column;
+    .hero-content {
+        font-size: 16px;
     }
     
-    .discount-content-area {
-        flex-direction: column;
+    .hero-image-wrap {
+        max-width: 80%;
+        margin: 0 auto;
     }
     
-    .footer-grid-wrap {
-        grid-template-columns: repeat(2, 1fr);
+    .hero-image {
+        right: 20px;
+    }
+    
+    .feature-grid {
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .feature-item {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+    .about-us-grid-wrap {
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .about-left-section {
+        text-align: center;
+    }
+    
+    .section-title-wrap.left {
+        text-align: center;
+    }
+    
+    .about-content-wrap {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .about-info-item {
+        min-width: 200px;
+    }
+    
+    .service-grid, 
+    .service-grid.toggle-align {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .service-image-wrap {
+        min-height: 400px;
+    }
+    
+    .testimonial-grid {
+        flex-direction: column;
+        gap: 30px;
+        max-width: 600px;
+        margin: 50px auto 0;
     }
     
     .benefits-content-wrap {
         grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    .discount-content-area {
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .offer-wrap {
+        flex-wrap: wrap;
+    }
+    
+    .article-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    
+    .footer-grid-wrap {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+    
+    .footer-top-section {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
     }
 }
 
+/* 481px - 768px */
 @media (max-width: 768px) {
-    .header-menu-wrap {
-        flex-wrap: wrap;
+    .navbar {
+        padding: 15px;
+    }
+    
+    .brand-logo {
+        height: 40px;
+    }
+    
+    .header-button {
+        padding: 10px 20px;
+    }
+    
+    .header-button-title {
+        font-size: 11px;
+    }
+    
+    .hero-section {
+        padding: 0 15px;
+    }
+    
+    .hero-grid-wrap {
+        padding: 50px 0;
+        gap: 30px;
+    }
+    
+    .hero-title {
+        font-size: 32px;
+    }
+    
+    .hero-subtitle-text {
+        font-size: 12px;
+    }
+    
+    .hero-content {
+        font-size: 15px;
+    }
+    
+    .hero-image-wrap {
+        border-width: 5px;
+        padding: 10px;
+    }
+    
+    .hero-image {
+        right: 10px;
+    }
+    
+    .button {
+        padding: 12px 24px;
+        font-size: 12px;
+    }
+    
+    .feature-section,
+    .about-us-section,
+    .service-section,
+    .testimonial-section,
+    .benefits-section,
+    .flat-discount-section,
+    .article-section {
+        padding: 60px 0;
+    }
+    
+    .section-title {
+        font-size: 28px;
+    }
+    
+    .section-subtitle {
+        font-size: 12px;
+    }
+    
+    .section-title-content {
+        font-size: 16px;
+    }
+    
+    .feature-item-title {
+        font-size: 22px;
+    }
+    
+    .about-content-wrap {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .about-info-item {
+        padding: 20px;
+    }
+    
+    .about-info-title {
+        font-size: 20px;
+    }
+    
+    .service-title-text,
+    .service-item-cost {
+        font-size: 22px;
+    }
+    
+    .service-image-wrap {
+        min-height: 300px;
+    }
+    
+    .testimonial-content {
+        font-size: 16px;
+        padding: 20px;
+    }
+    
+    .testimonial-client-wrap {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .testimonial-author-wrap {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .benefits-content-wrap {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .benefits-item {
+        padding: 15px;
+    }
+    
+    .benefits-heading {
+        font-size: 22px;
+    }
+    
+    .offer-discount {
+        padding: 20px;
+    }
+    
+    .offer-percentage {
+        font-size: 48px;
+    }
+    
+    .discount-title {
+        font-size: 16px;
+    }
+    
+    .discount-form {
+        padding: 30px 20px;
+    }
+    
+    .article-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .article-listing-title {
+        font-size: 20px;
+    }
+    
+    .footer-section {
+        padding-top: 50px;
+    }
+    
+    .footer-grid-wrap {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+    }
+    
+    .footer-widget-title {
+        font-size: 20px;
+    }
+    
+    .footer-address-row {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+    
+    .footer-address-title {
+        min-width: auto;
+    }
+    
+    .footer-social-wrap {
         justify-content: center;
+    }
+    
+    .copyright-text {
+        font-size: 12px;
+    }
+}
+
+/* до 480px */
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .navbar {
+        padding: 10px;
+    }
+    
+    .header-logo-wrap {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    
+    .brand-logo {
+        height: 35px;
+    }
+    
+    .header-contact-number {
+        font-size: 12px;
+    }
+    
+    .nav-menu {
+        gap: 15px;
+    }
+    
+    .nav-menu-link {
+        font-size: 14px;
+    }
+    
+    .header-social-wrap {
+        gap: 8px;
+    }
+    
+    .header-button {
+        padding: 8px 16px;
+    }
+    
+    .header-button-title {
+        font-size: 10px;
+    }
+    
+    .hero-title {
+        font-size: 28px;
+    }
+    
+    .hero-content {
+        font-size: 14px;
+    }
+    
+    .hero-image-wrap {
+        max-width: 100%;
+    }
+    
+    .hero-image {
+        right: 5px;
+    }
+    
+    .button {
+        padding: 10px 20px;
+        font-size: 11px;
+    }
+    
+    .section-title {
+        font-size: 24px;
+    }
+    
+    .feature-image {
+        height: 200px;
+    }
+    
+    .service-image-wrap {
+        min-height: 250px;
+    }
+    
+    .service-detail-item {
+        margin-bottom: 20px;
+    }
+    
+    .service-title-text,
+    .service-item-cost {
+        font-size: 20px;
+    }
+    
+    .service-type-detail {
+        flex-wrap: wrap;
+    }
+    
+    .testimonial-content {
+        font-size: 14px;
+        padding: 15px;
+    }
+    
+    .client-name {
+        font-size: 16px;
+    }
+    
+    .benefits-icon-wrap {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .benefits-icon-wrap img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .offer-contact {
+        padding: 15px;
+    }
+    
+    .offer-contact-item {
+        flex-direction: column;
+        text-align: center;
+        gap: 8px;
+    }
+    
+    .offer-link-wrap {
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .offer-percentage {
+        font-size: 36px;
+    }
+    
+    .input-field {
+        padding: 12px 12px 12px 40px;
+        font-size: 14px;
+    }
+    
+    .form-input-icon {
+        width: 18px;
+        height: 18px;
+        left: 12px;
+    }
+    
+    .submit-button {
+        padding: 12px;
+        font-size: 12px;
+    }
+    
+    .article-listing-content {
+        padding: 20px;
+    }
+    
+    .article-date, 
+    .article-author {
+        font-size: 10px;
+    }
+    
+    .article-listing-info {
+        font-size: 14px;
+    }
+    
+    .footer-social-link {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .footer-menu-link,
+    .footer-address-text,
+    .working-hour {
+        font-size: 14px;
+    }
+}
+
+/* 1400px+ */
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+    
+    .navbar {
+        max-width: 1440px;
+    }
+    
+    .hero-title {
+        font-size: 65px;
+    }
+    
+    .section-title {
+        font-size: 52px;
+    }
+    
+    .hero-grid-wrap {
+        gap: 80px;
+    }
+}
+
+/* Альбомная ориентация на мобильных */
+@media (max-width: 768px) and (orientation: landscape) {
+    .hero-grid-wrap {
+        padding: 40px 0;
     }
     
     .hero-title {
         font-size: 36px;
     }
     
-    .section-title {
-        font-size: 32px;
-    }
-    
-    .footer-grid-wrap {
-        grid-template-columns: 1fr;
+    .service-image-wrap {
+        min-height: 350px;
     }
     
     .benefits-content-wrap {
-        grid-template-columns: 1fr;
-    }
-    
-    .offer-wrap {
-        flex-direction: column;
-    }
-    
-    .footer-top-section {
-        flex-direction: column;
-        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
