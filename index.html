@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,7 +23,14 @@
                     <a href="#" class="header-contact-number">Call Us - (+22) 123 456 7890</a>
                 </div>
             </div>
-            <div class="header-menu-wrap">
+
+            <div class="burger-menu" id="burgerMenu">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+            </div>
+
+            <div class="header-menu-wrap" id="headerMenuWrap">
                 <nav role="navigation" class="nav-menu">
                     <a href="#" aria-current="page" class="nav-menu-link active">Home</a>
                     <a href="#" class="nav-menu-link">About</a>
@@ -54,7 +61,8 @@
             </div>
         </div>
     </div>
-        <!-- Hero Section -->
+
+    <!-- Hero Section -->
     <div class="hero-section">
         <div class="hero-area-wrap">
             <div class="container">
@@ -75,7 +83,8 @@
             </div>
         </div>
     </div>
-        <!-- Feature Section (3 карточки) -->
+
+    <!-- Feature Section -->
     <div class="feature-section">
         <div class="container">
             <div class="feature-content-wrap">
@@ -108,7 +117,8 @@
             </div>
         </div>
     </div>
-        <!-- About Us Section (Take Your Care) -->
+
+    <!-- About Us Section -->
     <div class="about-us-section">
         <div class="container">
             <div class="about-us-grid-wrap">
@@ -143,7 +153,8 @@
             </div>
         </div>
     </div>
-        <!-- Service Section (Услуги с ценами) -->
+
+    <!-- Service Section -->
     <div class="service-section">
         <div class="container">
             <div class="section-title-wrap">
@@ -151,7 +162,6 @@
                 <h2 class="section-title">Creative excellence and the <br/>unparalleled hospitality</h2>
             </div>
             <div class="service-content-wrap">
-                <!-- Первый блок услуг -->
                 <div class="service-grid">
                     <div class="service-image-wrap" style="background-image: url('images/photo17.jpg');"></div>
                     <div class="service-item-content">
@@ -196,7 +206,6 @@
                         </div>
                     </div>
                 </div>
-                                <!-- Второй блок услуг -->
                 <div class="service-grid toggle-align">
                     <div class="service-image-wrap item-two" style="background-image: url('images/photo19.jpg');"></div>
                     <div class="service-item-content toggle-content">
@@ -244,7 +253,8 @@
             </div>
         </div>
     </div>
-        <!-- Testimonial Section -->
+
+    <!-- Testimonial Section -->
     <div class="testimonial-section">
         <div class="container">
             <div class="section-title-wrap">
@@ -285,7 +295,8 @@
             </div>
         </div>
     </div>
-        <!-- Benefits Section -->
+
+    <!-- Benefits Section -->
     <div class="benefits-section">
         <div class="container">
             <div class="section-title-wrap">
@@ -352,7 +363,8 @@
             </div>
         </div>
     </div>
-        <!-- Flat Discount Section -->
+
+    <!-- Flat Discount Section -->
     <div class="flat-discount-section">
         <div class="container">
             <div class="discount-content-area">
@@ -396,23 +408,23 @@
                             <form>
                                 <div class="form-input-wrap">
                                     <img src="images/photo26.svg" loading="lazy" alt="Form Icon" class="form-input-icon"/>
-                                    <input class="input-field" maxlength="256" name="Name" type="text" id="Name" >
+                                    <input class="input-field" maxlength="256" name="Name" type="text" id="Name" placeholder="Your Name">
                                 </div>
                                 <div class="form-input-wrap">
                                     <img src="images/photo27.svg" loading="lazy" alt="Form Icon" class="form-input-icon"/>
-                                    <input class="input-field" maxlength="256" name="Email" type="email" id="Email" >
+                                    <input class="input-field" maxlength="256" name="Email" type="email" id="Email" placeholder="Your Email">
                                 </div>
                                 <div class="form-input-wrap">
                                     <img src="images/photo28.svg" loading="lazy" alt="Form Icon" class="form-input-icon"/>
-                                    <input class="input-field" maxlength="256" name="Phone" type="tel" id="Phone" >
+                                    <input class="input-field" maxlength="256" name="Phone" type="tel" id="Phone" placeholder="Phone Number">
                                 </div>
                                 <div class="form-input-wrap">
                                     <img src="images/photo29.svg" loading="lazy" alt="Form Icon" class="form-input-icon"/>
-                                    <input class="input-field" maxlength="256" name="Service-You-Need" type="text" id="Service-You-Need" >
+                                    <input class="input-field" maxlength="256" name="Service-You-Need" type="text" id="Service-You-Need" placeholder="Service You Need">
                                 </div>
                                 <div class="form-input-wrap">
                                     <img src="images/photo30.svg" loading="lazy" alt="Form Icon" class="form-input-icon"/>
-                                    <textarea maxlength="5000" id="field" name="field" class="input-field textarea"></textarea>
+                                    <textarea maxlength="5000" id="field" name="field" class="input-field textarea" placeholder="Your Message"></textarea>
                                 </div>
                                 <button type="button" class="submit-button">Get An Appointment</button>
                             </form>
@@ -422,7 +434,8 @@
             </div>
         </div>
     </div>
-        <!-- Article Section -->
+
+    <!-- Article Section -->
     <div class="article-section home-page">
         <div class="container">
             <div class="section-title-wrap">
@@ -484,7 +497,8 @@
             </div>
         </div>
     </div>
-        <!-- Footer Section -->
+
+    <!-- Footer Section -->
     <div class="footer-section">
         <div class="container">
             <div class="footer-content-wrap">
@@ -573,5 +587,25 @@
             </div>
         </div>
     </div>
+
+    <script>
+        const burgerMenu = document.getElementById('burgerMenu');
+        const headerMenuWrap = document.getElementById('headerMenuWrap');
+
+        burgerMenu.addEventListener('click', function() {
+            burgerMenu.classList.toggle('active');
+            headerMenuWrap.classList.toggle('active');
+            document.body.classList.toggle('menu-open');
+        });
+
+        const menuLinks = document.querySelectorAll('.nav-menu-link');
+        menuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                burgerMenu.classList.remove('active');
+                headerMenuWrap.classList.remove('active');
+                document.body.classList.remove('menu-open');
+            });
+        });
+    </script>
 </body>
 </html>
